@@ -1,6 +1,6 @@
 {
   "title": "姚勇文章目录",
-  "updated_at": "2026-09-06 14:15 UTC",
+  "updated_at": "2026-09-06 14:20 UTC",
   "trigger": "收录姚勇文章",
   "records": [
     {
@@ -17,11 +17,11 @@
       "id": 2,
       "title": "辩证法",
       "docx": "2辩证法.docx",
-      "source_pdf": "待用户上传或同步",
+      "source_pdf": "../2025-FireShot Capture 148 - 辩证法 - 知乎.pdf",
       "source_url": "https://www.zhihu.com/question/1980013147407545849/answer/1981201398533226606",
       "published": "未知",
-      "edited": "未知",
-      "status": "待PDF"
+      "edited": "2025-12-08 10:12（截图页面）",
+      "status": "已生成"
     }
   ]
 }
