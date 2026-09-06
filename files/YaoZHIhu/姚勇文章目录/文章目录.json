@@ -1,0 +1,27 @@
+{
+  "title": "姚勇文章目录",
+  "updated_at": "2026-09-06 14:20 UTC",
+  "trigger": "收录姚勇文章",
+  "records": [
+    {
+      "id": 1,
+      "title": "人生艰难，如何才能过得好一点呢",
+      "docx": "1人生艰难，如何才能过得好一点呢.docx",
+      "source_pdf": "../2022-FireShot Capture 139 - (85 封私信 _ 80 条消息) 人生艰难，如何才能过得好一点呢 - 知乎 - [zhuanlan.zhihu.com].pdf",
+      "source_url": "https://zhuanlan.zhihu.com/p/482757365",
+      "published": "2022-03（截图只显示到月）",
+      "edited": "2025-12-15 10:36（截图页面）",
+      "status": "已生成"
+    },
+    {
+      "id": 2,
+      "title": "辩证法",
+      "docx": "2辩证法.docx",
+      "source_pdf": "../2025-FireShot Capture 148 - 辩证法 - 知乎.pdf",
+      "source_url": "https://www.zhihu.com/question/1980013147407545849/answer/1981201398533226606",
+      "published": "未知",
+      "edited": "2025-12-08 10:12（截图页面）",
+      "status": "已生成"
+    }
+  ]
+}
