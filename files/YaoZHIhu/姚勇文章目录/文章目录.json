@@ -1,6 +1,6 @@
 {
   "title": "姚勇文章目录",
-  "updated_at": "2026-09-06 17:03 UTC",
+  "updated_at": "2026-09-06 20:22 UTC",
   "trigger": "收录姚勇文章",
   "records": [
     {
@@ -31,6 +31,16 @@
       "source_url": "https://www.zhihu.com/people/H3D/search?keyword=K12&pathBefore=%2Fpeople%2FH3D",
       "published": "未知",
       "edited": "2025-11-12 21:32（截图页面）",
+      "status": "已生成"
+    },
+    {
+      "id": 4,
+      "title": "情绪优先吗？先分清三类问题",
+      "docx": "4情绪优先吗？先分清三类问题.docx",
+      "source_pdf": "../2026-情绪优先吗？先分清三类问题.pdf",
+      "source_url": "https://www.zhihu.com/question/7570017409/answer/2072292739803358432",
+      "published": "未知",
+      "edited": "2026-08-16 14:14（截图页面，美国）",
       "status": "已生成"
     }
   ]
