@@ -1,6 +1,6 @@
 {
   "title": "姚勇文章目录",
-  "updated_at": "2026-09-06 14:32 UTC",
+  "updated_at": "2026-09-06 17:03 UTC",
   "trigger": "收录姚勇文章",
   "records": [
     {
@@ -21,6 +21,16 @@
       "source_url": "https://www.zhihu.com/question/1980013147407545849/answer/1981201398533226606",
       "published": "未知",
       "edited": "2025-12-08 10:12（截图页面）",
+      "status": "已生成"
+    },
+    {
+      "id": 3,
+      "title": "你在和谁比？竞争力、资源与长期投入",
+      "docx": "3你在和谁比？竞争力、资源与长期投入.docx",
+      "source_pdf": "../2025-你在和谁比？竞争力、资源与长期投入.pdf",
+      "source_url": "https://www.zhihu.com/people/H3D/search?keyword=K12&pathBefore=%2Fpeople%2FH3D",
+      "published": "未知",
+      "edited": "2025-11-12 21:32（截图页面）",
       "status": "已生成"
     }
   ]
