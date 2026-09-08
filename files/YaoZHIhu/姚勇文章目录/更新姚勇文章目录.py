@@ -127,10 +127,11 @@ def generate():
             for run in cell.paragraphs[0].runs:
                 set_font(run, "宋体", 8.5)
 
-        source = row.cells[3].add_paragraph("原文：" + record["source_url"])
-        compact(source)
-        for run in source.runs:
-            set_font(run, "宋体", 7.5, color=(46, 116, 181))
+        if record.get("source_url"):
+            source = row.cells[3].add_paragraph("原文：" + record["source_url"])
+            compact(source)
+            for run in source.runs:
+                set_font(run, "宋体", 7.5, color=(46, 116, 181))
 
     doc.add_paragraph()
     p = doc.add_paragraph(
