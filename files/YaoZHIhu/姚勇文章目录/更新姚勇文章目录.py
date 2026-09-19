@@ -113,7 +113,10 @@ def generate():
             stats_text = f"{record['status']}｜DOCX尚未生成"
 
         time_text = f"发布：{record['published']}\n编辑：{record['edited']}"
-        values = [str(record["id"]), record["docx"], time_text, stats_text]
+        docx_name = record["docx"]
+        if record.get("extra_docx"):
+            docx_name = f"{record['docx']}\n{record['extra_docx']}"
+        values = [str(record["id"]), docx_name, time_text, stats_text]
         row = table.add_row()
         for i, (value, width) in enumerate(zip(values, widths)):
             cell = row.cells[i]
