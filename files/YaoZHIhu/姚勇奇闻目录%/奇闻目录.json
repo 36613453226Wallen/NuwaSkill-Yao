@@ -1,6 +1,6 @@
 {
   "title": "姚勇奇闻目录",
-  "updated_at": "2026-09-06 18:00 UTC",
+  "updated_at": "2026-09-20 06:45 UTC",
   "trigger": "收录姚勇奇闻",
   "records": [
     {
@@ -12,6 +12,39 @@
       "published": "未知",
       "edited": "2021-05-10 22:37（截图页面）",
       "status": "已生成"
+    },
+    {
+      "id": 2,
+      "title": "比尔盖茨警告LLM：微软自己的LLM+呢？",
+      "docx": "2比尔盖茨警告LLM：微软自己的LLM+呢？.docx",
+      "source_pdf": "../2026-比尔盖茨警告LLM：微软自己的LLM+呢？.pdf",
+      "printscreen_dir": "../AnswerPrintScreen/奇闻2",
+      "source_url": "https://www.zhihu.com/question/2076242797019882645/answer/2076283494234330397",
+      "published": "2026-08-27 12:22（截图）",
+      "edited": "未知",
+      "status": "已生成｜完整一句话｜信息流可见部分"
+    },
+    {
+      "id": 3,
+      "title": "学习心理学就能一眼看穿人心吗",
+      "docx": "3学习心理学就能一眼看穿人心吗.docx",
+      "source_pdf": "../2026-学习心理学就能一眼看穿人心吗.pdf",
+      "printscreen_dir": "../AnswerPrintScreen/奇闻3",
+      "source_url": "https://www.zhihu.com/question/2041473142145771005/answer/2059808302574449053",
+      "published": "未知（截图仅显示 07-13）",
+      "edited": "未知",
+      "status": "已生成｜仅信息流开头｜阅读全文未展开"
+    },
+    {
+      "id": 4,
+      "title": "Papi称窦文涛嘴上喊挣钱却一动不动",
+      "docx": "4Papi称窦文涛嘴上喊挣钱却一动不动.docx",
+      "source_pdf": "../2026-Papi称窦文涛嘴上喊挣钱却一动不动.pdf",
+      "printscreen_dir": "../AnswerPrintScreen/奇闻4",
+      "source_url": "https://www.zhihu.com/question/2055329997322293379/answer/2057061897053148752",
+      "published": "未知（截图仅显示 07-05）",
+      "edited": "未知",
+      "status": "已生成｜仅信息流开头｜阅读全文未展开"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "title": "*超级指令",
-  "updated_at": "2026-09-10",
+  "updated_at": "2026-09-20",
   "folder": "files/问题与视角-agent与Y双版本",
   "auto_update_rule": "只要生成了新的关键词口令或提示词命令，必须立刻 upsert 本 JSON，并运行 更新超级指令.py 重写 *超级指令.docx，不得只写聊天说明。",
   "commands": [
@@ -9,12 +9,12 @@
       "keyword": "收录姚勇文章",
       "type": "关键词口令",
       "created": "2026-09-06",
-      "source": "Prompt-姚勇文章半自动收录流程.docx（仓库根目录）及 files/YaoZHIhu/姚勇文章目录/README.md",
-      "purpose": "把手动保存的姚勇文章 PDF 转成可编辑 DOCX，并同步维护《姚勇文章目录》。",
-      "inputs": "新文章 PDF、原文链接；可选标题与已知的首次发布/编辑时间。",
-      "operation": "将 PDF 放入 files/YaoZHIhu/，不读取 Wushuyao/。按 PDF 做 OCR 与标题层级判断，去掉导航、私信数、广告和评论区，生成接近原文结构的 DOCX。按加入顺序命名为「序号＋标题.docx」。原文链接放在 DOCX 结尾。分别记录首次发布时间、后续编辑时间和快照时间。更新 文章目录.json 并运行 更新姚勇文章目录.py。页面无法访问时只使用 PDF，状态写待 PDF。",
-      "outputs": "files/YaoZHIhu/ 下的 PDF 与 DOCX；files/YaoZHIhu/姚勇文章目录/姚勇文章目录.docx",
-      "notes": "主文章局部分支用「年份-主序号.小标题序号」（如 2022-1.8）；分支 DOCX 不附原文链接，目录不显示空链接。"
+      "source": "Prompt-姚勇文章半自动收录流程.docx（仓库根目录）及 files/YaoZHIhu/姚勇文章目录/README.md；2026-09-20 增补问题标题、问题描述、评论截图与缺项提醒",
+      "purpose": "把手动保存的姚勇文章 PDF/截图转成可编辑 DOCX，写入问题标题与问题描述，评论用知乎界面截图贴在正文后，并同步维护《姚勇文章目录》。",
+      "inputs": "新文章 PDF 或截图、原文链接；问题标题、问题描述；评论区截图（最好带头像的知乎界面）。缺任何一项时先在对话里提醒，不编造。",
+      "operation": "将 PDF 放入 files/YaoZHIhu/，回答截图放入 AnswerPrintScreen/<文章序号>/，不读取 Wushuyao/。按 PDF/截图做 OCR 与标题层级判断，去掉导航、私信数和广告，生成接近原文结构的 DOCX。问题标题、问题描述写入正文前。评论按知乎界面截图贴在正文后，保留头像以便识别，不另做评论 OCR 转写；截图未展开的不补造。缺问题标题、问题描述或评论截图时，必须在对话界面提醒。按加入顺序命名为「序号＋标题.docx」。原文链接放在 DOCX 结尾。分别记录首次发布时间、后续编辑时间和快照时间。更新 文章目录.json 并运行 更新姚勇文章目录.py。页面无法访问时只使用 PDF/截图。",
+      "outputs": "files/YaoZHIhu/ 下的 PDF 与 DOCX；AnswerPrintScreen/<序号>/ 截图；files/YaoZHIhu/姚勇文章目录/姚勇文章目录.docx",
+      "notes": "主文章局部分支用「年份-主序号.小标题序号」（如 2022-1.8）；分支 DOCX 不附原文链接，目录不显示空链接。评论默认用截图贴在正文后。缺问题标题、问题描述或评论补充时必须在对话界面提醒。"
     },
     {
       "id": 2,
