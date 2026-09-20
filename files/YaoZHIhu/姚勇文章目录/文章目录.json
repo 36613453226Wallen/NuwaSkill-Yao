@@ -1,6 +1,6 @@
 {
   "title": "姚勇文章目录",
-  "updated_at": "2026-09-19 02:23 UTC",
+  "updated_at": "2026-09-20 01:14 UTC",
   "trigger": "收录姚勇文章",
   "records": [
     {
@@ -63,7 +63,28 @@
       "source_url": "https://www.zhihu.com/question/504504562/answer/2288424379",
       "published": "2021-12-28 00:10（截图）",
       "edited": "未知（截图仅显示专栏更新 2026-09-13 14:13）",
-      "status": "已生成｜源文件为截图转PDF"
+      "status": "已生成｜另有【排版复原版本】",
+      "extra_docx": "5独立思考一定更好吗？相对概念与快思慢想【排版复原版本】.docx"
+    },
+    {
+      "id": 6,
+      "title": "孩子先别读《钢铁是怎样炼成的》：理想与责任伦理",
+      "docx": "6孩子先别读《钢铁是怎样炼成的》：理想与责任伦理.docx",
+      "source_pdf": "../2026-孩子先别读《钢铁是怎样炼成的》：理想与责任伦理.pdf",
+      "source_url": "https://www.zhihu.com/question/1939757494105805768/answer/2079531467936474071",
+      "published": "未知",
+      "edited": "2026-09-05 19:13（截图，北京）",
+      "status": "已生成｜按原文短段落排版"
+    },
+    {
+      "id": 7,
+      "title": "心理健康怎么改善？运动、佛学与自我CBT",
+      "docx": "7心理健康怎么改善？运动、佛学与自我CBT.docx",
+      "source_pdf": "../2026-心理健康怎么改善？运动、佛学与自我CBT.pdf",
+      "source_url": "https://www.zhihu.com/question/1937991623154852740/answer/2069069859363857073",
+      "published": "未知",
+      "edited": "未知（截图仅显示专栏更新 2026-09-13 14:13）",
+      "status": "已生成｜按原文短段落｜保留评论区"
     }
   ]
 }
