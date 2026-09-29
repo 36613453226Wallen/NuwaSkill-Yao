@@ -25,9 +25,12 @@ def _load_generate():
 def upsert(entry: dict) -> dict:
     data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     commands = data.setdefault("commands", [])
-    keyword = entry["keyword"].strip()
+    keyword = " ".join(entry["keyword"].split())
     today = date.today().isoformat()
-    existing = next((item for item in commands if item["keyword"] == keyword), None)
+    existing = next(
+        (item for item in commands if item["keyword"].casefold() == keyword.casefold()),
+        None,
+    )
     if existing:
         existing.update({key: value for key, value in entry.items() if value is not None})
         action = "更新"
