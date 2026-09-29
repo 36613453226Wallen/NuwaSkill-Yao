@@ -1,6 +1,6 @@
 {
   "title": "姚勇文章目录",
-  "updated_at": "2026-09-29 09:30 UTC",
+  "updated_at": "2026-09-29 13:10 UTC",
   "trigger": "收录姚勇文章",
   "records": [
     {
@@ -115,6 +115,17 @@
       "published": "2026-06-07 14:41（截图，北京）",
       "edited": "未知（截图仅显示专栏更新 2026-09-24 11:57）",
       "status": "已生成｜ai总结分指令｜正文后Agent总结｜评论截图｜原截图PDF"
+    },
+    {
+      "id": 10,
+      "title": "精算计&老板：识人是算贡献和威胁",
+      "docx": "10精算计&老板：识人是算贡献和威胁.docx",
+      "source_pdf": "../2025-精算计&老板：识人是算贡献和威胁.pdf",
+      "printscreen_dir": "../AnswerPrintScreen/10",
+      "source_url": "https://www.zhihu.com/question/668009848/answer/1972067293258286027",
+      "published": "未知（截图仅显示编辑时间）",
+      "edited": "2025-11-13 14:05（截图页面）",
+      "status": "已生成｜ai总结分指令｜正文后Agent总结｜评论截图｜原截图PDF｜标题含精算计&老板"
     }
   ]
 }
