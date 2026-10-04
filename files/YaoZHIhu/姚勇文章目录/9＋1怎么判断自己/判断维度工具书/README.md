@@ -4,7 +4,7 @@
 
 公开书目：
 
-- 林崇德主编《发展心理学》第三版（人民教育出版社，2018）：https://www.pep.com.cn/products/jc/gsjks/201904/t20190425_1937567.shtml
+- [美]罗伯特 S. 费尔德曼（Robert S. Feldman）《发展心理学：探索人生发展的轨迹（原书第3版）》，苏彦捷译（机械工业出版社，2017）：https://book.douban.com/subject/27136673/
 - Jerry M. Burger《人格心理学》第八版，陈会昌等译（中国轻工业出版社 / 万千心理）：http://wqedu.com/books/d261.html
 
-旁边的 `发展心理学-林崇德第三版-目录摘录.docx`、`人格心理学-Burger第八版-目录摘录.docx` 只摘公开目录。
+旁边的 `发展心理学-罗伯特S费尔德曼原书第3版-目录摘录.docx`、`人格心理学-Burger第八版-目录摘录.docx` 只摘公开目录。
