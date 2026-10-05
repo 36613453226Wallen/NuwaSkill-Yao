@@ -1,6 +1,6 @@
 {
   "title": "姚勇文章目录",
-  "updated_at": "2026-10-04 19:00 UTC",
+  "updated_at": "2026-10-05 03:30 UTC",
   "trigger": "收录姚勇文章",
   "records": [
     {
@@ -139,6 +139,17 @@
       "published": "未知（截图仅显示编辑时间）",
       "edited": "2025-11-13 14:05（截图页面）",
       "status": "已生成｜ai总结分指令｜正文后Agent总结｜评论截图｜原截图PDF｜标题含精算计&老板"
+    },
+    {
+      "id": 11,
+      "title": "被否定被夸奖：价值锚点对事不对人",
+      "docx": "11被否定被夸奖：价值锚点对事不对人.docx",
+      "source_pdf": "../2026-被否定被夸奖：价值锚点对事不对人.pdf",
+      "printscreen_dir": "../AnswerPrintScreen/11",
+      "source_url": "https://www.zhihu.com/question/1893772831172587718/answer/2076347816188831115",
+      "published": "未知（截图未见首次发布）",
+      "edited": "2026-08-27 17:37（截图，北京）",
+      "status": "已生成｜ai总结分指令｜正文后Agent总结｜问题标题与描述｜回答评论区未见未编造｜原截图PNG/PDF"
     }
   ]
 }
