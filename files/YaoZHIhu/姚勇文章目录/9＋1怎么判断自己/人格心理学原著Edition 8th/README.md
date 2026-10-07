@@ -8,4 +8,5 @@
 - `Dr-JM-Burger-UNISA职员页.docx`：学位、Books、Journal，中英对照，含职员页超链接
 - `原图-UNISA职员页/`：用户原图
 - `原图-UNISA职员页/中文译图/`：同一组页面的中文译图
+- `真正的不知名作者——Dr.Personality/`：Jerry M. Burger 官网 About / Events / News / Stories / Social Psychologist 的原图、FireShot、合订本与中英对照。
 - `得寸进尺法-维基百科/`：中文维基「得寸进尺法」截图，以及 Burger 1999 综述在词条中的位置与链接。
