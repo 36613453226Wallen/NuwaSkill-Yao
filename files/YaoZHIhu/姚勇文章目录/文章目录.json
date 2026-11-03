@@ -1,6 +1,6 @@
 {
   "title": "姚勇文章目录",
-  "updated_at": "2026-11-03 13:10 UTC",
+  "updated_at": "2026-11-03 13:15 UTC",
   "trigger": "收录姚勇文章",
   "records": [
     {
@@ -190,10 +190,10 @@
       "docx": "15努力增大回报概率：世界非恶意与吐骨头.docx",
       "source_pdf": "../2026-努力增大回报概率：世界非恶意与吐骨头.pdf",
       "printscreen_dir": "../AnswerPrintScreen/15",
-      "source_url": "",
+      "source_url": "https://www.zhihu.com/question/2085347821004366795/answer/2099119898827944168",
       "published": "2026-10-29 12:46（截图，北京）",
       "edited": "未见（截图仅有发布于；专栏更新同刻）",
-      "status": "已生成｜ai评价分指令｜DOCX在目录根｜截图去掉顶栏与右边栏｜8条评论未展开未编造｜原文链接未见未补造"
+      "status": "已生成｜ai评价分指令｜DOCX在目录根｜截图去掉顶栏与右边栏｜8条评论未展开未编造｜原文链接后补"
     }
   ]
 }
