@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""从目录数据.json生成紧凑的DOCX对话目录。"""
+"""从对话轮目录1数据.json生成紧凑的DOCX对话目录。"""
 
 import json
 from pathlib import Path
@@ -10,12 +10,12 @@ from docx.enum.table import WD_CELL_VERTICAL_ALIGNMENT, WD_TABLE_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
-from docx.shared import Inches, Pt
+from docx.shared import Inches, Pt, RGBColor
 
 
 ROOT = Path(__file__).resolve().parent
-DATA_PATH = ROOT / "目录数据.json"
-OUTPUT_PATH = ROOT / "目录-女娲部署之Menu，姚勇.docx"
+DATA_PATH = ROOT / "对话轮目录1数据.json"
+OUTPUT_PATH = ROOT / "对话轮目录1-女娲部署之Menu，姚勇.docx"
 
 
 def set_cell_shading(cell, fill):
@@ -64,11 +64,25 @@ def generate():
     title = doc.add_paragraph()
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     title.paragraph_format.space_after = Pt(2)
-    run = title.add_run(data["title"])
-    run.font.name = "黑体"
-    run._element.get_or_add_rPr().rFonts.set(qn("w:eastAsia"), "黑体")
-    run.font.size = Pt(15)
-    run.bold = True
+    full_title = data["title"]
+    prefix = "对话轮目录1"
+    rest = full_title[len(prefix) :] if full_title.startswith(prefix) else ""
+
+    def add_title_run(text, *, color=None):
+        run = title.add_run(text)
+        run.font.name = "黑体"
+        run._element.get_or_add_rPr().rFonts.set(qn("w:eastAsia"), "黑体")
+        run.font.size = Pt(15)
+        run.bold = True
+        if color is not None:
+            run.font.color.rgb = RGBColor(*color)
+        return run
+
+    if rest:
+        add_title_run(prefix, color=(192, 0, 0))
+        add_title_run(rest)
+    else:
+        add_title_run(full_title, color=(192, 0, 0))
 
     note = doc.add_paragraph(
         f"共 {len(records)} 条｜更新：{data['updated_at']}｜策略：{data['update_mode']}"
@@ -118,7 +132,7 @@ def generate():
             format_paragraph(cell.paragraphs[0], size=8.2, align=align)
 
     doc.core_properties.title = data["title"]
-    doc.core_properties.subject = "女娲部署与姚勇对话目录"
+    doc.core_properties.subject = "对话轮目录1｜女娲部署与姚勇"
     doc.save(OUTPUT_PATH)
     print(f"已生成：{OUTPUT_PATH}")
 
