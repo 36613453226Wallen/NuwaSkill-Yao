@@ -1,6 +1,6 @@
 {
   "title": "姚勇奇闻目录",
-  "updated_at": "2026-11-05 03:20 UTC",
+  "updated_at": "2026-11-18 02:30 UTC",
   "trigger": "收录姚勇奇闻",
   "records": [
     {
@@ -68,6 +68,17 @@
       "published": "2024-02-12 22:58（截图，四川）",
       "edited": "未见（截图仅有发布于）",
       "status": "已生成｜作者另拉法耶特｜序号夹｜评论另夹贴图不转录｜不进YaoZHIhu根PDF｜问题描述未见"
+    },
+    {
+      "id": 7,
+      "title": "[作者另：城市]看似档次高实则误导：独力可成与需人配合",
+      "docx": "城市猎人Z文选/1[作者另：城市]看似档次高实则误导：独力可成与需人配合.docx",
+      "source_pdf": "城市猎人Z文选/2021-[作者另：城市]看似档次高实则误导：独力可成与需人配合.pdf",
+      "printscreen_dir": "../AnswerPrintScreen/奇闻7",
+      "source_url": "https://zhuanlan.zhihu.com/p/409134205",
+      "published": "未见（截图只有编辑于）",
+      "edited": "2021-09-10 22:22（截图）",
+      "status": "已生成｜城市猎人Z文选第1篇｜作者另城市猎人｜专栏无原问题｜评论未见未编造｜不进YaoZHIhu根PDF"
     }
   ]
 }
