@@ -85,7 +85,7 @@ def generate():
     p.paragraph_format.space_after = Pt(6)
 
     headers = ["序号", "DOCX 全名", "时间", "内容统计与状态"]
-    widths = [0.55, 2.75, 1.65, 2.45]
+    widths = [0.7, 2.65, 1.65, 2.4]
     table = doc.add_table(rows=1, cols=4)
     table.alignment = WD_TABLE_ALIGNMENT.CENTER
     table.autofit = False
